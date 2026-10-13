@@ -1,18 +1,9 @@
 ITUS102 - PRACTICAL EXAMINATION | DEBUGGING AND IMPLEMENTATION REPORT
 Date: 13-10-2026 | Task 02 - Library Late-Return Fine Calculator
 
-Enrollment No.:
-Name:
-
-SIMPLE BUGS (write a brief explanation for each)
-Bug | Original problem | Correction made | Why required
-S1  |    ITUS102 - PRACTICAL EXAMINATION | DEBUGGING AND IMPLEMENTATION REPORT
-Date: 13-10-2026 | Task 02 - Library Late-Return Fine Calculator
-
 Enrollment No.: 26ce119
-Name: nensi harshadbhai vekariya
+Name: Nensi Harshadbhai Vekariya
 
-SIMPLE BUGS (write a brief explanation for each)
 SIMPLE BUGS
 Bug	Original problem              	Correction made	                    Why required
 S1	Navigation link had an incorrect target #calcuator.	Changed it to #calculator.	To navigate to the calculator section correctly.
