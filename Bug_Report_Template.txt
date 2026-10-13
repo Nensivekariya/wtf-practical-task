@@ -1,0 +1,63 @@
+ITUS102 - PRACTICAL EXAMINATION | DEBUGGING AND IMPLEMENTATION REPORT
+Date: 13-10-2026 | Task 02 - Library Late-Return Fine Calculator
+
+Enrollment No.:
+Name:
+
+SIMPLE BUGS (write a brief explanation for each)
+Bug | Original problem | Correction made | Why required
+S1  |    ITUS102 - PRACTICAL EXAMINATION | DEBUGGING AND IMPLEMENTATION REPORT
+Date: 13-10-2026 | Task 02 - Library Late-Return Fine Calculator
+
+Enrollment No.: 26ce119
+Name: nensi harshadbhai vekariya
+
+SIMPLE BUGS (write a brief explanation for each)
+SIMPLE BUGS
+Bug	Original problem              	Correction made	                    Why required
+S1	Navigation link had an incorrect target #calcuator.	Changed it to #calculator.	To navigate to the calculator section correctly.
+S2	A generic <div> was used for the site-information area.	Replaced it with the semantic <footer> element.	To use the correct HTML5 semantic element.
+S3	The CSS background-color property was missing a colon.	Corrected it to background-color: #f1f6f9;.	To apply the background color correctly.
+S4	The CSS selector .pageTitle did not match the HTML ID pageTitle.	Changed the selector to #pageTitle.	To apply styles to the correct heading.
+S5	The program subtracted 1 from the entered late days.	Removed - 1 from the late-days calculation.	To calculate the fine using the actual number of late days.
+S6	The processing charge was incorrect.	Set PROCESSING_CHARGE to 10.	To apply the required ₹10 processing charge.
+CODE COMPLETION / IMPLEMENTATION
+M1: Added UTF-8 charset and responsive viewport metadata to the HTML document.
+
+M2: Added a semantic <aside class="notice"> with the heading "Important Note" and a reminder to check input values.
+
+M3: Used Flexbox with display: flex and justify-content: space-between to arrange navigation links horizontally.
+
+M4: Used CSS Grid with grid-template-columns: repeat(2, 1fr) to display two equal-width information cards.
+
+M5: Added a media query for screens 600px and below to stack the cards in one column and arrange navigation vertically.
+
+M6: Implemented calculateFine(days, books, rate) to calculate the basic fine using days * books * rate.
+
+D1: Implemented chooseRate(type) using if-else statements: Student = ₹5, Staff = ₹3, Visitor = ₹10.
+
+D2: Implemented calculateTotal(fine, processingCharge) to return 0 when there is no fine; otherwise, it returns the fine plus the processing charge.
+
+D3: Implemented buildBreakdown(days, books, rate) using a for loop to display the cumulative fine for each late day.
+
+FUNCTIONAL TEST
+Test input:
+
+Late days: 5
+Number of books: 2
+Member type: Student
+Observed result:
+
+Rate: ₹5 per day per book
+Basic fine: ₹50
+Processing charge: ₹10
+Total fine: ₹60
+Cumulative fine after Day 5: ₹50
+Mobile layout checked (Yes/No): ___yes_______
+
+GIT VERSION CONTROL
+git log -1 --oneline output: ______________________________
+
+GitHub URL (if available): _____https://github.com/Nensivekariya/wtf-practical-task___________________________
+
+
